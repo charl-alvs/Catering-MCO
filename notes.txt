@@ -1,0 +1,12 @@
+<h1 class="section-about-header">They provide the most valuable pleasure</h1>
+    <p>
+        It is important to take care of the patient, to <br>
+        be followed by the patient, but it will happen at such a time <br>
+        that there is a lot of work and pain.
+    </p>
+
+
+<img class="card" src="./assets/images/card-image1.png" alt="image">
+
+
+peso Sign = ₱

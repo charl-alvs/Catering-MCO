@@ -1,0 +1,99 @@
+
+* {
+    color: #ffffff;
+}
+
+.first-section {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/images/background1.png');
+}
+
+.header {
+    font-size: 5rem;
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/images/background2.png');
+}
+
+.section-about-header {
+    font-size: 30px;
+}
+
+.card-img {
+    width: 350px;
+    border: 3px solid #C29C6D;
+    border-radius: 30px;
+}
+
+.third-section {
+    padding-bottom: 40px;
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./assets/images/background3.png');
+}
+
+.section-menu-header {
+    padding: 50px 0px 30px 0px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.gallery {
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-gallery {
+    width: 250px;
+    height: fit-content;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border: 10px #ffffff;
+}
+
+.fourth-section {
+    width: 100%;
+    padding: 5% 8%;
+    height: fit-content;
+    background-color: whitesmoke;
+}
+
+.contact-header {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0%;
+}
+
+.mail-link {
+    text-align: center;
+    color: #000000;
+}
+
+.semiHeader {
+    margin: 0% 0% 2% 0%;
+    text-align: center;
+    color: #C29C6D;
+}

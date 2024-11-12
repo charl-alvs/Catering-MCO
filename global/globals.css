@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    ---text-light: #ffffff;
+    ---text-dark: #000000
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', system-ui, Arial, sans-serif;
+}
+
+.page-layout {
+    width: 100%;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+.center-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-btn {
+    padding: 5px 20px;
+    border: 3px solid #C29C6D;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.default-btn:hover {
+    background-color: #C29C6D;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.default-btn:not(:hover) {
+    background-color: transparent;
+    transition: .3s;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    gap: 50px;
+}
+
+.align-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION STYLE START */
+.section-layout-fixed {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 10%;
+}
+
+.section-layout-resize {
+    width: 100%;
+    padding: 0% 10%;
+    min-height: 100vh;
+    max-height: fit-content;
+}
+
+.section-header {
+    padding: 3% 0%;
+    text-align: center;
+    font-size: 3rem;
+}
+/* SECTION STYLE END */
+
+.items {
+    flex-grow: 1;
+    white-space: nowrap;
+    max-width: 500px;
+}
+
+.text-light {
+    color: var(---text-light);
+}
+
+.text-dark {
+    color: var(---text-dark);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* DEFAULT FORM STYLE START */
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-select {
+    font-size: 15px;
+    cursor: pointer;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.form-btn {
+    padding: 8px 50px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 100%;
+    margin: 5px 0px;
+    border-radius: 4px;
+    border: 0;
+    padding: 3px 10px;
+    font-size: 16px;
+}
+
+.textarea-default {
+    padding: 10px;
+}
+/* DEFAULT FORM STYLE END */

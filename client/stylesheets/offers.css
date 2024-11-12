@@ -1,0 +1,27 @@
+
+.img-bg {
+    width: 100%;
+    background-image: url('../../assets/images/background1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+}
+
+.padding-x {
+    padding: 0px 100px ;
+}
+
+.offers-gallery {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.offers-card {
+    width: 380px;
+    padding: 30px;
+    background-color: burlywood;
+    border-radius: 10px;
+    border: 10px solid white;
+}
