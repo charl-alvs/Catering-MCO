@@ -3,7 +3,7 @@
     $username = "root";
     $password = "";
     $dbname = "catering_db";
-    $port = 3308;
+    $port = 3308;  // Changed from 3308 to 3306
 
     // connect to phpMyAdmin
     $connect = mysqli_connect($servername, $username, $password, $dbname, $port);

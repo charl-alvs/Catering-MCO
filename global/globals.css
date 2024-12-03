@@ -47,6 +47,19 @@ html, body {
     transition: .3s;
 }
 
+/* Specific style for View Offers button */
+.default-btn[href*="offers.php"]:hover {
+    background-color: transparent !important;
+    color: white !important;
+    transition: .3s;
+}
+
+.default-btn[href*="offers.php"]:not(:hover) {
+    background-color: #C29C6D !important;
+    color: white!important;
+    transition: .3s;
+}
+
 .text-center {
     text-align: center;
 }

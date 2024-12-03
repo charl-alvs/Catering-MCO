@@ -1,0 +1,8 @@
+checkout form
+
+select package
+name
+landmark
+address
+email
+

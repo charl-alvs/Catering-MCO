@@ -29,6 +29,12 @@
     .nav-items:hover {
         color: #C29C6D;
     }
+
+    .button-container {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
 </style>
 
 <nav class="navbar">
@@ -38,5 +44,8 @@
         <li><a class="nav-items" href="#offersMenu">Offers & Menu</a></li>
         <li><a class="nav-items" href="#contact">Contact</a></li>
     </ul>
-    <a class="default-btn" href="client/pages/offers.php" style="font-size: 13.5px; text-decoration: none;">View Offers</a>
+    <div class="button-container">
+        <a class="default-btn" href="client/pages/offers.php" style="font-size: 13.5px; text-decoration: none;">View Offers</a>
+        <a class="default-btn" href="client/pages/track_order.php" style="font-size: 13.5px; text-decoration: none;">Track Order</a>
+    </div>
 </nav>
